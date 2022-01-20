@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		
+		<title>Dice Game</title>
+	</head>
+	<body id="game">
+		<div class="header">
+			<h1>Dice Game</h1>
+			<p>Reach a score of 20 to win!</p>
+			<p>If your dice rolls "1", you lose.</p>
+		</div>
+
+		<p class="score-container">SCORE: <span id="scorePlayer1">-</span></p>
+
+		<div class="areaPlayer1">
+			<!-- <div id="result"></div> -->
+			<div id="rollText1">Roll your dice!</div>
+			<div class="image-container">
+				<img id="imagePlayer1" />
+			</div>
+		</div>
+
+		<div class="buttons">
+			<button id="rollPlayer1">Roll</button>
+			<button id="playAgain">Play Again</button>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
